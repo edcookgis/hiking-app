@@ -1,10 +1,10 @@
 export default {
   scene: {
-    websceneItemId: "d0580bb5df3840d384bda44b6ddeb54e" // global scene
+    websceneItemId: "74a4f190d34e468a8c95178c997a43bb" // global scene
     // websceneItemId: "7abaad52a4254f30ab1897079cad504a" // local scene
   },
   data: {
-    trailsServiceUrl: "https://services.arcgis.com/V6ZHFr6zdgNZuVG0/arcgis/rest/services/SwissNationalParkTrails/FeatureServer",
+    trailsServiceUrl: "https://services.arcgis.com/XTtANUDT8Va4DLwI/arcgis/rest/services/FiordlandNationalParkTramps/FeatureServer",
     trailAttributes: {
       name: "Name",
       id: "RouteId",

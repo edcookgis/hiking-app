@@ -1,7 +1,7 @@
 {
   "name": "trail-guide",
   "version": "1.0.0",
-  "description": "A 3D trail guide app for the Swiss National Park.",
+  "description": "A 3D trail guide app for the Fiordland National Park.",
   "scripts": {
     "build": "webpack -p --config ./webpack.config.prod.js",
     "start": "webpack-dev-server --hot --open"

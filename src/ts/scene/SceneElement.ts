@@ -142,7 +142,7 @@ export default class SceneElement {
             }
             else {
               this.removeLoadingIcon();
-              if (result.graphic.layer.title === "Hiking trails") {
+              if (result.graphic.layer.title === "Tramping Tracks") {
                 this.state.setSelectedTrailId(result.graphic.attributes.RouteId);
               }
             }
@@ -261,7 +261,7 @@ export default class SceneElement {
   private initTrailsLayer() {
     return new FeatureLayer({
       url: config.data.trailsServiceUrl,
-      title: "Hiking trails",
+      title: "Tramping Tracks",
       outFields: ["*"],
       renderer: getTrailRenderer(),
       elevationInfo: {
