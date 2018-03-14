@@ -142,8 +142,8 @@ export default class SelectionPanel {
       valueAxes: [{
         strictMinMax: true,
         autoGridCount: false,
-        minimum: 1000,
-        maximum: 3500,
+        minimum: 0,
+        maximum: 2500,
         axisThickness: 0,
         tickLength: 0
       }]
